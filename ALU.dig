@@ -322,6 +322,20 @@
       <pos x="-360" y="40"/>
     </visualElement>
     <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>BUS</string>
+        </entry>
+      </elementAttributes>
+      <pos x="80" y="-220"/>
+    </visualElement>
+    <visualElement>
       <elementName>LED</elementName>
       <elementAttributes>
         <entry>
@@ -339,25 +353,6 @@
         </entry>
       </elementAttributes>
       <pos x="-120" y="-200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Color</string>
-          <awt-color>
-            <red>102</red>
-            <green>255</green>
-            <blue>102</blue>
-            <alpha>255</alpha>
-          </awt-color>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>ZF</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-120" y="-160"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -384,6 +379,25 @@
       <pos x="-420" y="-80"/>
     </visualElement>
     <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color>
+            <red>102</red>
+            <green>255</green>
+            <blue>102</blue>
+            <alpha>255</alpha>
+          </awt-color>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>ZF</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-120" y="-160"/>
+    </visualElement>
+    <visualElement>
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
@@ -392,16 +406,6 @@
         </entry>
       </elementAttributes>
       <pos x="-120" y="-80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>ZF</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-120" y="-40"/>
     </visualElement>
     <visualElement>
       <elementName>NotConnected</elementName>
@@ -417,20 +421,20 @@
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
-          <string>Input Splitting</string>
-          <string>8</string>
-        </entry>
-        <entry>
           <string>splitterSpreading</string>
           <int>2</int>
         </entry>
         <entry>
-          <string>Output Splitting</string>
-          <string>1,1,1,1,1,1,1,1</string>
-        </entry>
-        <entry>
           <string>rotation</string>
           <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,1,1,1,1,1,1,1</string>
         </entry>
       </elementAttributes>
       <pos x="700" y="1280"/>
@@ -493,15 +497,11 @@
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
           <string>Label</string>
-          <string>BUS</string>
+          <string>ZF</string>
         </entry>
       </elementAttributes>
-      <pos x="80" y="-220"/>
+      <pos x="-120" y="-40"/>
     </visualElement>
   </visualElements>
   <wires>
