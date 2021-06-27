@@ -9,16 +9,6 @@
   </attributes>
   <visualElements>
     <visualElement>
-      <elementName>74189.dig</elementName>
-      <elementAttributes/>
-      <pos x="680" y="-760"/>
-    </visualElement>
-    <visualElement>
-      <elementName>74189.dig</elementName>
-      <elementAttributes/>
-      <pos x="1140" y="-760"/>
-    </visualElement>
-    <visualElement>
       <elementName>74157.dig</elementName>
       <elementAttributes/>
       <pos x="-420" y="-60"/>
@@ -547,6 +537,16 @@
         </entry>
       </elementAttributes>
       <pos x="-180" y="-300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>74189.dig</elementName>
+      <elementAttributes/>
+      <pos x="680" y="-760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>74189.dig</elementName>
+      <elementAttributes/>
+      <pos x="1140" y="-760"/>
     </visualElement>
   </visualElements>
   <wires>

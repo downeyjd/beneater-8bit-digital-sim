@@ -38,9 +38,9 @@ DATA Polling for End of Write Detection not implemented!</string>
         </entry>
         <entry>
           <string>Data</string>
-          <data>4,8,0,0,0,0,0,0,4,8,0,0,0,0,0,0,4,8,0,20,80,0,0,0,4,8,10,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+          <data>4,8,0,0,0,0,0,0,4,8,0,0,0,0,0,0,4,8,0,20,80,0,0,0,4,8,10,0,0,0,0,0,4,8,0,0,0,0,0,
+0,4,8,0,0,0,0,0,0,4,8,0,0,0,0,0,0,4,8,0,0,0,0,0,0,4,8,0,0,0,0,0,0,4,8,0,0,0,0,0,0,
+4,8,0,0,0,0,0,0,4,8,0,0,0,0,0,0,4,8,0,0,0,0,0,0,4,8,0,0,0,0,0,0,4,8,0,0,0,0,0,0,4,
 8</data>
         </entry>
         <entry>
@@ -53,7 +53,7 @@ DATA Polling for End of Write Detection not implemented!</string>
         </entry>
         <entry>
           <string>lastDataFile</string>
-          <string>D:\Jason\Documents\beneater-8bit-digital-sim\ucode_lower.hex</string>
+          <string>D:\Jason\Documents\beneater-8bit-digital-sim\ucode_lower_26Jun2021.hex</string>
         </entry>
       </elementAttributes>
       <pos x="820" y="-180"/>

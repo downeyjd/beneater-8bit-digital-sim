@@ -38,10 +38,10 @@ DATA Polling for End of Write Detection not implemented!</string>
         </entry>
         <entry>
           <string>Data</string>
-          <data>40,14,0,0,0,0,0,0,40,14,48,12,0,0,0,0,40,14,48,10,2,0,0,0,40,14,1,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,40,14,80</data>
+          <data>40,14,0,0,0,0,0,0,40,14,48,12,0,0,0,0,40,14,48,10,2,0,0,0,40,14,1,0,0,0,0,0,40,14,
+0,0,0,0,0,0,40,14,0,0,0,0,0,0,40,14,0,0,0,0,0,0,40,14,0,0,0,0,0,0,40,14,0,0,0,0,0,
+0,40,14,0,0,0,0,0,0,40,14,0,0,0,0,0,0,40,14,0,0,0,0,0,0,40,14,0,0,0,0,0,0,40,14,0,
+0,0,0,0,0,40,14,0,0,0,0,0,0,40,14,80</data>
         </entry>
         <entry>
           <string>inverterConfig</string>
@@ -53,7 +53,7 @@ DATA Polling for End of Write Detection not implemented!</string>
         </entry>
         <entry>
           <string>lastDataFile</string>
-          <string>D:\Jason\Documents\beneater-8bit-digital-sim\ucode_upper.hex</string>
+          <string>D:\Jason\Documents\beneater-8bit-digital-sim\ucode_upper_26Jun2021.hex</string>
         </entry>
       </elementAttributes>
       <pos x="820" y="-180"/>
