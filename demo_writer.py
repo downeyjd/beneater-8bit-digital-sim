@@ -1,3 +1,5 @@
+#haven't actually used this yet. too hard to figure out how to 
+#program the RAM with a file in Digital...
 addresses = [0b0000, 0b0001, 0b0010, 0b1000]
 
 instructions = [ 0b00011000, # LDA from 0b1000

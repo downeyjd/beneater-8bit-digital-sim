@@ -13,6 +13,7 @@ ADD:
 0010        011     00010000 00100000   RO BI
 0010        100     00000010 10000000   AI EO
 
+0000011010
 OUT:
 0011        010     00000001 00010000   AO OI
 0011        011     00000000 00000000
@@ -28,3 +29,20 @@ HLT:
 0001: 0011 0000 - OUT register A
 0010: 1111 0000 - HLT
 1000: 0101 0101 - data
+
+How the address is selected for the microcode ROMs:
+# same for both chips, they're just burned with the 8 LSbits in the lower chip
+# and the 8 MSbits in the upper chip. Using half (<half) of the chip, though.
+# if we had a way of selecting two addresses (x and x+128 words) from a single chip,
+# then we wouldn't need both RAM chips.
+
+A9 - ZF
+A8 - CF
+A7 - GND
+A6 - D7 (or I3)
+A5 - D6 (or I2)
+A4 - D5 (or I1)
+A3 - D4 (or I0)
+A2 - QC
+A1 - QB
+A0 - QA
